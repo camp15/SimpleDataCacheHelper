@@ -35,7 +35,7 @@ namespace MyLibrary
                 return HttpContext.Current.Cache[key] != null;
             }
 
-            public static T Ge<T>(string key) where T : class
+            public static T Get<T>(string key) where T : class
             {
                 try
                 {
